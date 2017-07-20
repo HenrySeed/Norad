@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NORAD</title>
+    <style>
+      body
+      {
+        background-color: #081c24;
+        display: block;
+        color:#1fbaa7;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+      }
+      #bg_image{
+        /*background-image: url("bg.png");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;*/
+        /*width: 3000px;
+        height: 2000px;
+        margin-left: -600px;
+        margin-top: -200px;*/
+      }
+
+      #terminal_field #content
+      {
+        -webkit-border-radius:50px;
+        -moz-border-radius:50px;
+        border-radius:50px;
+        color:#1fbaa7;
+        background-color:#162030;
+        text-shadow:#89d3fd 0 -1px 35px;
+      }
+
+      #terminal_field #content
+      {
+        -webkit-box-shadow:none;
+        -moz-box-shadow:none;
+        box-shadow:none;
+        background-color:transparent;
+        border-style:none;
+        font:400 16px monospace;
+        line-height: 18px;
+        padding: 10px;
+      }
+
+      #terminal_field
+      {
+        width: 800px;
+        height: 600px;
+        color: #c7c7c7;
+        margin-left: auto;;
+        margin-right: auto;
+        margin-top:100px;
+      }
+
+    </style>
+
+    <!-- <link rel="stylesheet" href="cursor.css"> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+  </head>
+  <body>
+    <div id="bg_image">
+      <pre>
+        <div id="terminal_field">
+          <div id="content">
+
+          </div>
+        </div>
+      </pre>
+    </div>
+  </body>
+</html>
