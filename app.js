@@ -6,7 +6,7 @@ welcome = "Welcome Colonel Dormer, ID# 55293193 \n\n\
 Time Since Last Login: 331 months, 21 days and 12 hours.\n\n\
 -----------------------------------------------------------";
 
-story1 = "<!-- hey dave, mike here, I'm knocking off for the weekend. Ive set a temp pass phrase of 909091 so you can still access the mainframe, though we better do a proper authentication thingey this before we send it off to blackfriars, you know how they get haha. -->";
+story1 = "<!-- hey dave, mike here. I'm knocking off for the weekend, tho ive set up a temp pass phrase of 909091 so you can still access the mainframe, we better do a proper authentication thingey this before we send it off to blackfriars, you know how they get haha. -->";
 
 cursor = '<span class="blinking_cursor">&#9611</span>';
 
