@@ -18,6 +18,8 @@ welcome = "Welcome Colonel Dormer, ID# 55293193 \n\n\
 Time Since Last Login: 331 months, 21 days and 12 hours.\n\n\
 -----------------------------------------------------------";
 
+story1 = "<!-- hey dave, mike here, I'm knocking off for the weekend. Ive set a temp pass phrase of 909091 so you can still access the mainframe, though we better change this before we send it off to blackwood, you know how they get haha. -->";
+
 cursor = '<span class="blinking_cursor">&#9611</span>';
 
 newline = "\n> "
@@ -28,7 +30,7 @@ state = 0;
 function draw_termie() {
   if(state == 0)
   {
-    $('#content').html(logo + "Enter Identification Passphrase: \n\n" + current_buff + cursor);
+    $('#content').html(story1 + logo + "Enter Identification Passphrase: \n\n" + current_buff + cursor);
 
   } else if(state == 1)
   {
@@ -86,7 +88,7 @@ $( document ).ready(function() {
         if(current_buff == 909091){
           current_buff = '';
           state = 1
-        } 
+        }
       }
       e.preventDefault();
     }
